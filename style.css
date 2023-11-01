@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: chartreuse;
+
+}
+
+.logo a {
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    color: blue;
+   }
+
+   .navs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 700px;
+}
+
+ul {
+    display: flex;
+    gap:25px;
+    margin-right: 60px;
+    padding-right: 300px;
+}
+
+ul li {
+    list-style: none;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+ul li a:hover{
+    color: cornflowerblue;
+}
+
+section{
+    width: 700px;
+    height: 600px;
+    display: column;
+    margin-left: 400px;
+    margin-top: 120px;
+    
+}
+
+section img{
+    width: 400px;
+    height: 290px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    border: 1px solid red;
+}
+
+section h4{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+
+.links{
+    display: flex;
+    gap: 60px;
+    margin-top: 200px;
+    margin-left: 400px;
+   
+}
+
+.links p a{
+    border: 1px solid;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+.links p a:hover{
+    border: 2px solid red;
+}
+
+
+
+
+/* furniture ontop */
+
+
+.jStart{
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+    gap: 60px;
+    
+}
+
+.formcard{
+    border: 1px solid;
+    padding: 20px 100px ;
+    height: 300px;
+}
+
+.formcard input{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+
+    
